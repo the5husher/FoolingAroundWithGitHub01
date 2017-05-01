@@ -10,6 +10,8 @@ namespace FoolingAroundWithGitHub01.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Message"] = "Your home page.";
+
             return View();
         }
 
