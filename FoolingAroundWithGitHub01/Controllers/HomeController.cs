@@ -10,7 +10,7 @@ namespace FoolingAroundWithGitHub01.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "Your home page.";
+            ViewData["Message"] = "Your home page version 3.0!";
 
             return View();
         }
